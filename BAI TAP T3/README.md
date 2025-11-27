@@ -178,5 +178,3 @@ private:
 - `report(stmtId, failed)` được gọi mỗi khi statement chạy trong test. Sau test gọi `endTest(failed)`.
 - `suspiciousness` sử dụng công thức Tarantula (slide 140-143 nhấn mạnh ranking dựa trên spectra).
 - Dev sẽ kiểm tra các statement có điểm cao trước → giảm thời gian debug.
-
-> Các ví dụ đều có thể chạy độc lập hoặc gộp vào framework kiểm thử để đáp ứng yêu cầu Homework 3: tracing, dynamic slicing, execution indexing, fault localization, tất cả bằng C++.
