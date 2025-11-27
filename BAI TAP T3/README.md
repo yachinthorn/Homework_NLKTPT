@@ -1,6 +1,5 @@
 # Homework 3 – Dynamic Analyses Illustrated in C++
-
-Tài liệu dựa trên nội dung slide 3 (tracing, dynamic slicing, execution indexing, fault localization). Mỗi mục sử dụng cùng một đoạn mã C++ quen thuộc để việc đối chiếu dễ dàng.
+Mỗi mục sử dụng cùng một đoạn mã C++ 
 
 ## 1. Minh hoạ phân tích chương trình bằng Tracing
 **Ý tưởng:** giống slide về tracing/logging các sự kiện gây ảnh hưởng nhân quả. Ta ghi lại những điểm kiểm soát quan trọng (entry, exit, biến thay đổi) để khôi phục hành vi khi cần.
